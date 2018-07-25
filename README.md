@@ -13,10 +13,9 @@ UniqueNumberService的客户端
 初始化
 
     Set<Long> set=new HashSet<Long>();
-		LinkedList<ServerBean> sss=new LinkedList<ServerBean>();
-		sss.add(new ServerBean(url, scret));
-
-		UniqueNum.init(sss, 10, 1000000);
+    LinkedList<ServerBean> sss=new LinkedList<ServerBean>();
+    sss.add(new ServerBean(url, scret));
+    UniqueNum.init(sss, 10, 1000000);
     
 使用
 
